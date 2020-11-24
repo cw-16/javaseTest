@@ -5,13 +5,12 @@ import java.util.Date;
 
 public class CalendarTest {
     public static void main(String[] args) {
-//Calendar类方法的使用
-     //用程序判断2020年11月24日是星期几。
-        Calendar c = Calendar.getInstance( );
+        //用程序判断2020年11月24日是星期几。
+        Calendar c = Calendar.getInstance();
 
-        c.set(Calendar.YEAR,2020);
-        c.set(Calendar.MONTH,11);
-        c.set(Calendar.DATE,24);
+        c.set(Calendar.YEAR, 2020);
+        c.set(Calendar.MONTH, 11);
+        c.set(Calendar.DATE, 24);
 
         int year = c.get(Calendar.YEAR);
         int month = c.get(Calendar.MONTH);
@@ -24,7 +23,7 @@ public class CalendarTest {
     }
 
     private static char week(int i) {
-        char[] c={' ','日','一','二','三','四','五','六'};
+        char[] c = {' ', '日', '一', '二', '三', '四', '五', '六'};
         return c[i];
     }
 
