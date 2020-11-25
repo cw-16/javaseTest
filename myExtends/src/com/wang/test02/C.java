@@ -5,7 +5,7 @@ public class C extends B{
     int numC=30;
     @Override
     public void showB() {
-        System.out.println("showB"+super.numb);
+        System.out.println("showB:"+super.numb);
     }
 
     @Override
@@ -14,6 +14,6 @@ public class C extends B{
     }
 
     public void showC(){
-        System.out.println("showC"+numC);
+        System.out.println("showC:"+numC);
     }
 }
