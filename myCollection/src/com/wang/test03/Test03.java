@@ -2,7 +2,7 @@ package com.wang.test03;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Iterator;
+
 
 public class Test03 {
     public static void main(String[] args) {
