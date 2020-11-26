@@ -4,7 +4,7 @@ package com.wang.test06;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.Random;
+
 
 public class Test06 {
     public static void main(String[] args) {
