@@ -1,7 +1,6 @@
 package com.wang.test03;
 
 
-import com.sun.org.apache.xerces.internal.impl.dv.xs.BaseDVFactory;
 
 import java.util.Scanner;
 
