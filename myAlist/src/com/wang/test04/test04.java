@@ -1,4 +1,4 @@
-package com.wang;
+package com.wang.test04;
 
 import java.util.ArrayList;
 import java.util.Random;
